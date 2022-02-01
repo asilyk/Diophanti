@@ -14,7 +14,7 @@
 		11E8928E27A91C6E001DF3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E8928D27A91C6E001DF3B6 /* Assets.xcassets */; };
 		11E8929127A91C6E001DF3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E8928F27A91C6E001DF3B6 /* LaunchScreen.storyboard */; };
 		11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892A227A91E23001DF3B6 /* DataManager.swift */; };
-		11E892A727A91E51001DF3B6 /* Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892A627A91E51001DF3B6 /* Equation.swift */; };
+		11E892A727A91E51001DF3B6 /* QuadraticEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */; };
 		11E892AB27A91EC7001DF3B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892AA27A91EC7001DF3B6 /* TabBarController.swift */; };
 		11E892AF27A91F1F001DF3B6 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892AE27A91F1F001DF3B6 /* HistoryTableViewController.swift */; };
 		11E892B227A91FCB001DF3B6 /* EquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892B127A91FCB001DF3B6 /* EquationsViewController.swift */; };
@@ -32,7 +32,7 @@
 		11E8929027A91C6E001DF3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E8929227A91C6E001DF3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E892A227A91E23001DF3B6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		11E892A627A91E51001DF3B6 /* Equation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equation.swift; sourceTree = "<group>"; };
+		11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquation.swift; sourceTree = "<group>"; };
 		11E892AA27A91EC7001DF3B6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		11E892AE27A91F1F001DF3B6 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		11E892B127A91FCB001DF3B6 /* EquationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationsViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		11E892A027A91DDB001DF3B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				11E892A627A91E51001DF3B6 /* Equation.swift */,
+				11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E892B227A91FCB001DF3B6 /* EquationsViewController.swift in Sources */,
-				11E892A727A91E51001DF3B6 /* Equation.swift in Sources */,
+				11E892A727A91E51001DF3B6 /* QuadraticEquation.swift in Sources */,
 				11E8928927A91C65001DF3B6 /* AboutViewController.swift in Sources */,
 				11E892B827A92002001DF3B6 /* DetailedSolutionViewController.swift in Sources */,
 				11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */,
