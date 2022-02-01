@@ -31,9 +31,9 @@ struct QuadraticEquation {
         }
 
         solution.append("""
-            To find the roots of a quadratic equation, it is necessary to find the discriminant according to the formula D = b^2 - 4ac where b = \(secondCoefficient), a = \(firstCoefficient), c = \(freeMember)
+            To find the roots of a quadratic equation, it is necessary to find the discriminant according to the formula D = b² - 4ac where b = \(secondCoefficient), a = \(firstCoefficient), c = \(freeMember)
             """)
-        solution.append("D = \(secondCoefficient)^2 - 4 * \(firstCoefficient) * \(freeMember) = \(discriminant)")
+        solution.append("D = \(secondCoefficient)² - 4 * \(firstCoefficient) * \(freeMember) = \(discriminant)")
 
         if discriminant < 0 {
             solution.append("This quadratic equation has no roots because D < 0")
@@ -44,12 +44,12 @@ struct QuadraticEquation {
             solution.append("This quadratic equation has only one root because D = 0")
             solution.append("We can find this root using the formula x = -b / 2a where b = \(secondCoefficient), a = \(firstCoefficient)")
 
-            let root = -secondCoefficient / (2 * firstCoefficient)
+            let root = String(format: "%.2f", -secondCoefficient / (2 * firstCoefficient))
 
             solution.append("x = -\(secondCoefficient) / (2 * \(firstCoefficient))")
 
             solution.append("The root is")
-            solution.append("x = \(root)")
+            solution.append("x ≈ \(root)")
         }
 
         if discriminant > 0 {
@@ -61,16 +61,16 @@ struct QuadraticEquation {
 
             let rootOfDiscriminant = String(format: "%.2f", sqrt(Double(discriminant)))
 
-            solution.append("x1 = (\(-secondCoefficient) - √\(discriminant)) / (2 * \(firstCoefficient))")
-            solution.append("x1 = (\(-secondCoefficient) - \(rootOfDiscriminant) / \(2 * firstCoefficient)")
-            solution.append("x1 = \(String(format: "%.2f", Double(-secondCoefficient) - sqrt(Double(discriminant)))) / \(2 * firstCoefficient) = \(firstRoot)")
+            solution.append("x₁ = (\(-secondCoefficient) - √\(discriminant)) / (2 * \(firstCoefficient))")
+            solution.append("x₁ = (\(-secondCoefficient) - \(rootOfDiscriminant) / \(2 * firstCoefficient)")
+            solution.append("x₁ = \(String(format: "%.2f", Double(-secondCoefficient) - sqrt(Double(discriminant)))) / \(2 * firstCoefficient) = \(firstRoot)")
             
-            solution.append("x2 = (\(-secondCoefficient) + √\(discriminant)) / (2 * \(firstCoefficient))")
-            solution.append("x2 = (\(-secondCoefficient) + \(rootOfDiscriminant)) / \(2 * firstCoefficient)")
-            solution.append("x2 = \(String(format: "%.2f", Double(-secondCoefficient) + sqrt(Double(discriminant)))) / \(2 * firstCoefficient) = \(secondRoot)")
+            solution.append("x₂ = (\(-secondCoefficient) + √\(discriminant)) / (2 * \(firstCoefficient))")
+            solution.append("x₂ = (\(-secondCoefficient) + \(rootOfDiscriminant)) / \(2 * firstCoefficient)")
+            solution.append("x₂ = \(String(format: "%.2f", Double(-secondCoefficient) + sqrt(Double(discriminant)))) / \(2 * firstCoefficient) = \(secondRoot)")
 
             solution.append("The roots are")
-            solution.append("x1 = \(firstRoot)\nx2 = \(secondRoot)")
+            solution.append("x₁ ≈ \(firstRoot)\nx₂ ≈ \(secondRoot)")
         }
 
         return solution
