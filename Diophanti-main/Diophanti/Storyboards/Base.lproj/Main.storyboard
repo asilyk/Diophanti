@@ -321,14 +321,139 @@
                     <view key="view" contentMode="scaleToFill" id="fA0-fV-7DU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="hXb-Ei-1L8">
+                                <rect key="frame" x="30" y="96" width="315" height="34"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pkh-qd-Wbp">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q0w-6n-6Mr">
+                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="mcf-dZ-TR5" id="up3-Ok-dwz"/>
+                                                </connections>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x +" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlF-B0-Nzk">
+                                                <rect key="frame" x="62.5" y="0.0" width="37.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="9BE-Dy-djM"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SX5-7t-BCS">
+                                        <rect key="frame" x="122" y="0.0" width="110" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="col-pj-EC4">
+                                                <rect key="frame" x="0.0" y="0.0" width="70.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="mcf-dZ-TR5" id="e7d-Ju-Zlo"/>
+                                                </connections>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjH-7E-lYh">
+                                                <rect key="frame" x="80.5" y="0.0" width="29.5" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="pig-hk-yyr"/>
+                                        </constraints>
+                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UB1-X9-QWR">
+                                        <rect key="frame" x="254" y="0.0" width="61" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="61" id="8U8-4b-mL9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="mcf-dZ-TR5" id="46d-kg-5ih"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dap-Fn-A5I">
+                                <rect key="frame" x="120" y="266" width="137" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Deploy solution:"/>
+                                <connections>
+                                    <action selector="deploySolutionButtonPressed" destination="Zg2-7Q-uBw" eventType="touchUpInside" id="XoG-8q-gnj"/>
+                                    <action selector="deployeSolutionButtonPressed" destination="mcf-dZ-TR5" eventType="touchUpInside" id="Hy5-tG-Xlc"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="Cr8-kW-U5r">
+                                <rect key="frame" x="151.5" y="161" width="72" height="77.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omx-vV-7AL">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b48-YM-5SO">
+                                        <rect key="frame" x="0.0" y="39.5" width="72" height="38"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Solve">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="solveButtonPressed" destination="mcf-dZ-TR5" eventType="touchUpInside" id="Dyw-ag-Xf9"/>
+                                            <action selector="solveButtonPressed" destination="Zg2-7Q-uBw" eventType="touchUpInside" id="WGB-VB-mt3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="b48-YM-5SO" firstAttribute="centerX" secondItem="Cr8-kW-U5r" secondAttribute="centerX" id="Yfl-Sd-BnG"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your solution" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9of-II-oWe">
+                                <rect key="frame" x="16" y="315" width="343" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="f1F-d1-pfE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cr8-kW-U5r" firstAttribute="centerX" secondItem="fA0-fV-7DU" secondAttribute="centerX" id="8Ao-5G-kGO"/>
+                            <constraint firstItem="Cr8-kW-U5r" firstAttribute="top" secondItem="hXb-Ei-1L8" secondAttribute="bottom" constant="31" id="9gj-lu-f49"/>
+                            <constraint firstItem="hXb-Ei-1L8" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="30" id="CTF-Mz-3Eg"/>
+                            <constraint firstItem="9of-II-oWe" firstAttribute="top" secondItem="Dap-Fn-A5I" secondAttribute="bottom" constant="18" id="Gxb-OY-T8G"/>
+                            <constraint firstItem="hXb-Ei-1L8" firstAttribute="top" secondItem="f1F-d1-pfE" secondAttribute="top" id="JP3-9f-aXD"/>
+                            <constraint firstItem="hXb-Ei-1L8" firstAttribute="top" secondItem="f1F-d1-pfE" secondAttribute="top" id="K07-Zv-KWI"/>
+                            <constraint firstItem="Dap-Fn-A5I" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="120" id="Kan-3x-gvS"/>
+                            <constraint firstItem="9of-II-oWe" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="16" id="PQg-te-Yaj"/>
+                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="hXb-Ei-1L8" secondAttribute="trailing" constant="30" id="R7X-JM-z2X"/>
+                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="9of-II-oWe" secondAttribute="trailing" constant="16" id="Rx8-QV-WAF"/>
+                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="Dap-Fn-A5I" secondAttribute="trailing" constant="118" id="fVU-bK-FER"/>
+                            <constraint firstItem="hXb-Ei-1L8" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="30" id="nYp-VN-KXp"/>
+                            <constraint firstItem="Dap-Fn-A5I" firstAttribute="top" secondItem="Cr8-kW-U5r" secondAttribute="bottom" constant="27.5" id="qFu-7S-ICq"/>
+                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="hXb-Ei-1L8" secondAttribute="trailing" constant="30" id="uZA-GF-Yj6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Linear Equation" id="cq9-4m-gbu"/>
+                    <connections>
+                        <outlet property="deployeSolutionLabel" destination="9of-II-oWe" id="StA-v2-ibN"/>
+                        <outlet property="firstNumberTextField" destination="Q0w-6n-6Mr" id="5oV-Ar-4CN"/>
+                        <outlet property="resultLabel" destination="omx-vV-7AL" id="bWR-Py-Nvx"/>
+                        <outlet property="secondNumberTextField" destination="col-pj-EC4" id="Kxs-Mk-Zs9"/>
+                        <outlet property="thirdNumberTextField" destination="UB1-X9-QWR" id="KLf-fC-kVi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UT4-4i-od1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3406" y="-276"/>
+            <point key="canvasLocation" x="3405.5999999999999" y="-276.61169415292358"/>
         </scene>
         <!--About-->
         <scene sceneID="YO2-gW-rHa">

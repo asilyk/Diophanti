@@ -14,7 +14,6 @@ class QuadraticEquationViewController: UIViewController {
     @IBOutlet weak var thirdNumberTextField: UITextField!
     
     @IBOutlet weak var resultLabel: UILabel!
-    
     @IBOutlet weak var solutionTextLabel: UILabel!
     
     var equation = QuadraticEquation(firstCoefficient: 0, secondCoefficient: 0, freeMember: 0)
@@ -26,10 +25,12 @@ class QuadraticEquationViewController: UIViewController {
     }
     
     // MARK: - IB Actions
-
+    
     @IBAction func solveButtonPressed() {
+        
         let resultOfEquation = equation.solve()
         resultLabel.text = resultOfEquation.last
+        
         let text = resultOfEquation.joined(separator: " ")
         solutionTextLabel.text = text
     }
@@ -42,7 +43,7 @@ class QuadraticEquationViewController: UIViewController {
 // MARK: - Private Methods
 
 extension QuadraticEquationViewController {
-
+    
     private func showAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
@@ -53,7 +54,7 @@ extension QuadraticEquationViewController {
     @objc private func didTapDone() {
         view.endEditing(true)
     }
-
+    
 }
 // MARK: - UITextFieldDelegate
 
