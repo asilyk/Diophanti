@@ -22,6 +22,7 @@
 		11E892B827A92002001DF3B6 /* DetailedSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892B727A92002001DF3B6 /* DetailedSolutionViewController.swift */; };
 		11E892BE27A9B0A9001DF3B6 /* LinearEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */; };
 		11E892C127AA8E2F001DF3B6 /* CubicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */; };
+		11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		11E892B727A92002001DF3B6 /* DetailedSolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedSolutionViewController.swift; sourceTree = "<group>"; };
 		11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquation.swift; sourceTree = "<group>"; };
 		11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicEquation.swift; sourceTree = "<group>"; };
+		11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarithmicEquation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */,
 				11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */,
 				11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */,
+				11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				11E8928927A91C65001DF3B6 /* AboutViewController.swift in Sources */,
 				11E892B827A92002001DF3B6 /* DetailedSolutionViewController.swift in Sources */,
 				11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */,
+				11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */,
 				11E892B527A91FE6001DF3B6 /* SolutionViewController.swift in Sources */,
 				11E892AB27A91EC7001DF3B6 /* TabBarController.swift in Sources */,
 				11E892AF27A91F1F001DF3B6 /* HistoryTableViewController.swift in Sources */,
