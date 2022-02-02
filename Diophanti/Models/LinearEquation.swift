@@ -10,12 +10,6 @@ struct LinearEquation {
     let firstFreeMember: Int
     let secondFreeMember: Int
 
-    init(coefficient: Int, firstFreeMember: Int, secondFreeMember: Int) {
-        self.coefficient = coefficient
-        self.firstFreeMember = firstFreeMember
-        self.secondFreeMember = secondFreeMember
-    }
-
     func solve() -> (String, String) {
         let solution: String
         let root: String

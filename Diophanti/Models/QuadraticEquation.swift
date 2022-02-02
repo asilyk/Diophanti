@@ -16,12 +16,6 @@ struct QuadraticEquation {
         Int(pow(Double(secondCoefficient), 2)) - 4 * firstCoefficient * freeMember
     }
 
-    init(firstCoefficient: Int, secondCoefficient: Int, freeMember: Int) {
-        self.firstCoefficient = firstCoefficient
-        self.secondCoefficient = secondCoefficient
-        self.freeMember = freeMember
-    }
-
     func solve() -> (String, String) {
         var solution: String
         var root = ""
