@@ -5,7 +5,6 @@
 //  Created by Alexander on 01.02.2022.
 //
 
-
 struct LinearEquation {
     let coefficient: Int
     let firstFreeMember: Int
@@ -17,22 +16,26 @@ struct LinearEquation {
         self.secondFreeMember = secondFreeMember
     }
 
-    func solve() -> [String] {
-        var solution: [String] = []
+    func solve() -> (String, String) {
+        let solution: String
+        let root: String
 
-        if (coefficient == 0) {
-            solution.append("Error! This equation is not linear.")
-            return solution
+        if coefficient == 0 {
+            solution = "Error! This equation is not linear.\n"
+            return (solution, solution)
         }
 
-        solution.append("To solve a linear equation, we transfer all free members to the right side of the equation")
-        solution.append("\(coefficient)x = \(-firstFreeMember) + \(secondFreeMember)")
-        solution.append("\(coefficient)x = \(-firstFreeMember + secondFreeMember)")
-        solution.append("Now we divide the right side of the equation by the coefficient before x")
-        solution.append("x = \(-firstFreeMember + secondFreeMember) / \(coefficient)")
-        solution.append("The root is")
-        solution.append("x ≈ \(Double(-firstFreeMember + secondFreeMember) / Double(coefficient))")
+        root = "x ≈ \(Double(-firstFreeMember + secondFreeMember) / Double(coefficient))"
+        solution = """
+            To solve a linear equation, we transfer all free members to the right side of the equation\n"
+            \(coefficient)x = \(-firstFreeMember) + \(secondFreeMember)
+            \(coefficient)x = \(-firstFreeMember + secondFreeMember)
+            Now we divide the right side of the equation by the coefficient before x
+            x = \(-firstFreeMember + secondFreeMember) / \(coefficient)
+            The root is\n"
+            x ≈ \(root))
+        """
 
-        return solution
+        return (root, solution)
     }
 }
