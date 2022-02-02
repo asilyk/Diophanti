@@ -37,13 +37,13 @@ struct QuadraticEquation {
         }
 
         if discriminant == 0 {
-            root = String(format: "%.2f", Double(-secondCoefficient) / Double(2 * firstCoefficient))
+            root = String(format: "x ≈ %.2f", Double(-secondCoefficient) / Double(2 * firstCoefficient))
             solution += """
             This quadratic equation has only one root because D = 0
             We can find this root using the formula x = -b / 2a where b = \(secondCoefficient), a = \(firstCoefficient)
             x = -\(secondCoefficient) / (2 * \(firstCoefficient))
             The root is
-            x ≈ \(root)
+            \(root)
             """
         }
 
