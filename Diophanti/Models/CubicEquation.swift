@@ -32,15 +32,18 @@ struct CubicEquation {
         Q = \(String(format: "%.2f", q)), R = \(String(format: "%.2f", r))\n
         """
 
-        if pow(r, 2) < pow(q, 3) {
-            let t = acos(r / sqrt(pow(q, 3))) / 3
+        let rPowered2 = pow(r, 2)
+        let qPowered3 = pow(q, 3)
+
+        if rPowered2 < qPowered3 {
+            let t = acos(r / sqrt(qPowered3)) / 3
             let firstRoot = String(format: "%.2f", -2 * sqrt(q) * cos(t) - Double(a) / 3)
             let secondRoot = String(format: "%.2f", -2 * sqrt(q) * cos(t + 2 * Double.pi / 3) - Double(a) / 3)
             let thirdRoot = String(format: "%.2f", -2 * sqrt(q) * cos(t - 2 * Double.pi / 3) - Double(a) / 3)
 
             root = "x₁ ≈ \(firstRoot)\nx₂ ≈ \(secondRoot)\nx₃ ≈ \(thirdRoot)"
             solution += """
-            R² = \(String(format: "%.2f", pow(r, 2))) and it's less than Q³ = \(String(format: "%.2f", pow(q, 3)))
+            R² = \(String(format: "%.2f", rPowered2)) and it's less than Q³ = \(String(format: "%.2f", qPowered3))
             That means the equation has three roots
             We can find them with this formulas
             t = acos(R / √Q³) / 3
@@ -62,7 +65,7 @@ struct CubicEquation {
 
             root = "x ≈ \(String(format: "%.2f", aa + bb - Double(a) / 3))"
             solution += """
-            R² = \(String(format: "%.2f", pow(r, 2))) and it's bigger or equal than Q³ = \(String(format: "%.2f", pow(q, 3)))
+            R² = \(String(format: "%.2f", rPowered2)) and it's bigger or equal than Q³ = \(String(format: "%.2f", qPowered3))
             That means the equation has only one root
             We can find it with this formulas
             A = -(|R| + √(|R|² - Q³))^(1/3)
