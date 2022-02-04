@@ -7,40 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1172EC2C27AD8571009BBEC2 /* Theory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC2B27AD8571009BBEC2 /* Theory.swift */; };
+		1172EC3B27AD858B009BBEC2 /* EquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC2F27AD8589009BBEC2 /* EquationsViewController.swift */; };
+		1172EC3C27AD858B009BBEC2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3027AD8589009BBEC2 /* AboutViewController.swift */; };
+		1172EC3D27AD858B009BBEC2 /* TheoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3127AD8589009BBEC2 /* TheoryTableViewController.swift */; };
+		1172EC4027AD858B009BBEC2 /* LinearEquationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3427AD858A009BBEC2 /* LinearEquationViewController.swift */; };
+		1172EC4127AD858B009BBEC2 /* CubicEquationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3527AD858A009BBEC2 /* CubicEquationViewController.swift */; };
+		1172EC4227AD858B009BBEC2 /* LogarithmicEquationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3627AD858A009BBEC2 /* LogarithmicEquationViewController.swift */; };
+		1172EC4327AD858B009BBEC2 /* QuadraticEquationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3727AD858A009BBEC2 /* QuadraticEquationViewController.swift */; };
+		1172EC4527AD858B009BBEC2 /* DescriptionOfTheoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3927AD858A009BBEC2 /* DescriptionOfTheoryViewController.swift */; };
 		11E8928527A91C65001DF3B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E8928427A91C65001DF3B6 /* AppDelegate.swift */; };
 		11E8928727A91C65001DF3B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E8928627A91C65001DF3B6 /* SceneDelegate.swift */; };
-		11E8928927A91C65001DF3B6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E8928827A91C65001DF3B6 /* AboutViewController.swift */; };
 		11E8928C27A91C65001DF3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E8928A27A91C65001DF3B6 /* Main.storyboard */; };
 		11E8928E27A91C6E001DF3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E8928D27A91C6E001DF3B6 /* Assets.xcassets */; };
 		11E8929127A91C6E001DF3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E8928F27A91C6E001DF3B6 /* LaunchScreen.storyboard */; };
 		11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892A227A91E23001DF3B6 /* DataManager.swift */; };
 		11E892A727A91E51001DF3B6 /* QuadraticEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */; };
-		11E892AB27A91EC7001DF3B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892AA27A91EC7001DF3B6 /* TabBarController.swift */; };
-		11E892AF27A91F1F001DF3B6 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892AE27A91F1F001DF3B6 /* HistoryTableViewController.swift */; };
-		11E892B227A91FCB001DF3B6 /* EquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892B127A91FCB001DF3B6 /* EquationsViewController.swift */; };
-		11E892B527A91FE6001DF3B6 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892B427A91FE6001DF3B6 /* SolutionViewController.swift */; };
-		11E892B827A92002001DF3B6 /* DetailedSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892B727A92002001DF3B6 /* DetailedSolutionViewController.swift */; };
 		11E892BE27A9B0A9001DF3B6 /* LinearEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */; };
 		11E892C127AA8E2F001DF3B6 /* CubicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */; };
 		11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1172EC2B27AD8571009BBEC2 /* Theory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theory.swift; path = ../../../../Downloads/Diophanti/Diophanti/Models/Theory.swift; sourceTree = "<group>"; };
+		1172EC2F27AD8589009BBEC2 /* EquationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EquationsViewController.swift; path = ../Models/EquationsViewController.swift; sourceTree = "<group>"; };
+		1172EC3027AD8589009BBEC2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../Models/AboutViewController.swift; sourceTree = "<group>"; };
+		1172EC3127AD8589009BBEC2 /* TheoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheoryTableViewController.swift; path = ../Models/TheoryTableViewController.swift; sourceTree = "<group>"; };
+		1172EC3427AD858A009BBEC2 /* LinearEquationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinearEquationViewController.swift; path = ../Models/LinearEquationViewController.swift; sourceTree = "<group>"; };
+		1172EC3527AD858A009BBEC2 /* CubicEquationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CubicEquationViewController.swift; path = ../Models/CubicEquationViewController.swift; sourceTree = "<group>"; };
+		1172EC3627AD858A009BBEC2 /* LogarithmicEquationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogarithmicEquationViewController.swift; path = ../Models/LogarithmicEquationViewController.swift; sourceTree = "<group>"; };
+		1172EC3727AD858A009BBEC2 /* QuadraticEquationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuadraticEquationViewController.swift; path = ../Models/QuadraticEquationViewController.swift; sourceTree = "<group>"; };
+		1172EC3927AD858A009BBEC2 /* DescriptionOfTheoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionOfTheoryViewController.swift; path = ../Models/DescriptionOfTheoryViewController.swift; sourceTree = "<group>"; };
 		11E8928127A91C65001DF3B6 /* Diophanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diophanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E8928427A91C65001DF3B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E8928627A91C65001DF3B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11E8928827A91C65001DF3B6 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		11E8928B27A91C65001DF3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11E8928D27A91C6E001DF3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E8929027A91C6E001DF3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E8929227A91C6E001DF3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E892A227A91E23001DF3B6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadraticEquation.swift; sourceTree = "<group>"; };
-		11E892AA27A91EC7001DF3B6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		11E892AE27A91F1F001DF3B6 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
-		11E892B127A91FCB001DF3B6 /* EquationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationsViewController.swift; sourceTree = "<group>"; };
-		11E892B427A91FE6001DF3B6 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
-		11E892B727A92002001DF3B6 /* DetailedSolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedSolutionViewController.swift; sourceTree = "<group>"; };
 		11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquation.swift; sourceTree = "<group>"; };
 		11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicEquation.swift; sourceTree = "<group>"; };
 		11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarithmicEquation.swift; sourceTree = "<group>"; };
@@ -99,12 +105,14 @@
 		11E8929D27A91D66001DF3B6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				11E892AA27A91EC7001DF3B6 /* TabBarController.swift */,
-				11E892B127A91FCB001DF3B6 /* EquationsViewController.swift */,
-				11E892B427A91FE6001DF3B6 /* SolutionViewController.swift */,
-				11E892B727A92002001DF3B6 /* DetailedSolutionViewController.swift */,
-				11E892AE27A91F1F001DF3B6 /* HistoryTableViewController.swift */,
-				11E8928827A91C65001DF3B6 /* AboutViewController.swift */,
+				1172EC3027AD8589009BBEC2 /* AboutViewController.swift */,
+				1172EC3527AD858A009BBEC2 /* CubicEquationViewController.swift */,
+				1172EC3927AD858A009BBEC2 /* DescriptionOfTheoryViewController.swift */,
+				1172EC2F27AD8589009BBEC2 /* EquationsViewController.swift */,
+				1172EC3427AD858A009BBEC2 /* LinearEquationViewController.swift */,
+				1172EC3627AD858A009BBEC2 /* LogarithmicEquationViewController.swift */,
+				1172EC3727AD858A009BBEC2 /* QuadraticEquationViewController.swift */,
+				1172EC3127AD8589009BBEC2 /* TheoryTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 				11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */,
 				11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */,
 				11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */,
+				1172EC2B27AD8571009BBEC2 /* Theory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,17 +224,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E892B227A91FCB001DF3B6 /* EquationsViewController.swift in Sources */,
+				1172EC3B27AD858B009BBEC2 /* EquationsViewController.swift in Sources */,
 				11E892A727A91E51001DF3B6 /* QuadraticEquation.swift in Sources */,
 				11E892C127AA8E2F001DF3B6 /* CubicEquation.swift in Sources */,
+				1172EC3D27AD858B009BBEC2 /* TheoryTableViewController.swift in Sources */,
+				1172EC4027AD858B009BBEC2 /* LinearEquationViewController.swift in Sources */,
 				11E892BE27A9B0A9001DF3B6 /* LinearEquation.swift in Sources */,
-				11E8928927A91C65001DF3B6 /* AboutViewController.swift in Sources */,
-				11E892B827A92002001DF3B6 /* DetailedSolutionViewController.swift in Sources */,
+				1172EC2C27AD8571009BBEC2 /* Theory.swift in Sources */,
+				1172EC4527AD858B009BBEC2 /* DescriptionOfTheoryViewController.swift in Sources */,
+				1172EC4327AD858B009BBEC2 /* QuadraticEquationViewController.swift in Sources */,
+				1172EC4227AD858B009BBEC2 /* LogarithmicEquationViewController.swift in Sources */,
+				1172EC3C27AD858B009BBEC2 /* AboutViewController.swift in Sources */,
 				11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */,
+				1172EC4127AD858B009BBEC2 /* CubicEquationViewController.swift in Sources */,
 				11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */,
-				11E892B527A91FE6001DF3B6 /* SolutionViewController.swift in Sources */,
-				11E892AB27A91EC7001DF3B6 /* TabBarController.swift in Sources */,
-				11E892AF27A91F1F001DF3B6 /* HistoryTableViewController.swift in Sources */,
 				11E8928527A91C65001DF3B6 /* AppDelegate.swift in Sources */,
 				11E8928727A91C65001DF3B6 /* SceneDelegate.swift in Sources */,
 			);
