@@ -97,7 +97,15 @@ extension LinearEquationViewController: UITextFieldDelegate {
             return
         }
 
-        if number == "" { return }
+        if number == "" {
+            switch textField {
+            case firstNumberTextField: coefficient = 0
+            case secondNumberTextField: firstFreeMember = 0
+            default: secondFreeMember = 0
+            }
+
+            return
+        }
 
         showDetailedSolutionButton.isHidden = true
         resultLabel.isHidden = true
