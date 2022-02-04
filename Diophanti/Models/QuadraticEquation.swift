@@ -21,7 +21,8 @@ struct QuadraticEquation {
         var root = ""
 
         if firstCoefficient == 0 {
-            solution = "Error! This equation is not quadratic."
+            root = "Error! This equation is not quadratic."
+            solution = root + " First coefficient cannot be zero."
             return (solution, solution)
         }
 
