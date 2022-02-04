@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1172EC2C27AD8571009BBEC2 /* Theory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC2B27AD8571009BBEC2 /* Theory.swift */; };
 		1172EC3B27AD858B009BBEC2 /* EquationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC2F27AD8589009BBEC2 /* EquationsViewController.swift */; };
 		1172EC3C27AD858B009BBEC2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3027AD8589009BBEC2 /* AboutViewController.swift */; };
 		1172EC3D27AD858B009BBEC2 /* TheoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172EC3127AD8589009BBEC2 /* TheoryTableViewController.swift */; };
@@ -26,10 +25,10 @@
 		11E892BE27A9B0A9001DF3B6 /* LinearEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */; };
 		11E892C127AA8E2F001DF3B6 /* CubicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */; };
 		11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */; };
+		12E97E7A27AD8855003D7A8C /* Theory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E97E7927AD8855003D7A8C /* Theory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1172EC2B27AD8571009BBEC2 /* Theory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theory.swift; path = ../../../../Downloads/Diophanti/Diophanti/Models/Theory.swift; sourceTree = "<group>"; };
 		1172EC2F27AD8589009BBEC2 /* EquationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EquationsViewController.swift; path = ../Models/EquationsViewController.swift; sourceTree = "<group>"; };
 		1172EC3027AD8589009BBEC2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../Models/AboutViewController.swift; sourceTree = "<group>"; };
 		1172EC3127AD8589009BBEC2 /* TheoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheoryTableViewController.swift; path = ../Models/TheoryTableViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		11E892BD27A9B0A9001DF3B6 /* LinearEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquation.swift; sourceTree = "<group>"; };
 		11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicEquation.swift; sourceTree = "<group>"; };
 		11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogarithmicEquation.swift; sourceTree = "<group>"; };
+		12E97E7927AD8855003D7A8C /* Theory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theory.swift; path = "../../../../Downloads/Diophanti-main/Diophanti/Models/Theory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 				11E892A627A91E51001DF3B6 /* QuadraticEquation.swift */,
 				11E892C027AA8E2F001DF3B6 /* CubicEquation.swift */,
 				11E892C327AAD644001DF3B6 /* LogarithmicEquation.swift */,
-				1172EC2B27AD8571009BBEC2 /* Theory.swift */,
+				12E97E7927AD8855003D7A8C /* Theory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,12 +230,12 @@
 				1172EC3D27AD858B009BBEC2 /* TheoryTableViewController.swift in Sources */,
 				1172EC4027AD858B009BBEC2 /* LinearEquationViewController.swift in Sources */,
 				11E892BE27A9B0A9001DF3B6 /* LinearEquation.swift in Sources */,
-				1172EC2C27AD8571009BBEC2 /* Theory.swift in Sources */,
 				1172EC4527AD858B009BBEC2 /* DescriptionOfTheoryViewController.swift in Sources */,
 				1172EC4327AD858B009BBEC2 /* QuadraticEquationViewController.swift in Sources */,
 				1172EC4227AD858B009BBEC2 /* LogarithmicEquationViewController.swift in Sources */,
 				1172EC3C27AD858B009BBEC2 /* AboutViewController.swift in Sources */,
 				11E892A327A91E23001DF3B6 /* DataManager.swift in Sources */,
+				12E97E7A27AD8855003D7A8C /* Theory.swift in Sources */,
 				1172EC4127AD858B009BBEC2 /* CubicEquationViewController.swift in Sources */,
 				11E892C427AAD644001DF3B6 /* LogarithmicEquation.swift in Sources */,
 				11E8928527A91C65001DF3B6 /* AppDelegate.swift in Sources */,
@@ -389,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7DXS499R9;
 				INFOPLIST_FILE = Diophanti/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7DXS499R9;
 				INFOPLIST_FILE = Diophanti/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

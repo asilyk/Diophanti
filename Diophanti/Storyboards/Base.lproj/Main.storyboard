@@ -324,7 +324,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cs-OA-f8N">
-                                <rect key="frame" x="100" y="324.5" width="175" height="31"/>
+                                <rect key="frame" x="90" y="324.5" width="195" height="31"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show detailed solution" cornerStyle="capsule" titleAlignment="center">
@@ -348,10 +348,10 @@
                         <viewLayoutGuide key="safeArea" id="dbo-vg-a8u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5cs-OA-f8N" firstAttribute="leading" secondItem="dbo-vg-a8u" secondAttribute="leading" constant="100" id="87y-Xv-L5t"/>
+                            <constraint firstItem="5cs-OA-f8N" firstAttribute="leading" secondItem="dbo-vg-a8u" secondAttribute="leading" constant="90" id="87y-Xv-L5t"/>
                             <constraint firstItem="wTG-Mg-fEc" firstAttribute="top" secondItem="dbo-vg-a8u" secondAttribute="top" constant="60" id="L83-Q7-Zlh"/>
                             <constraint firstItem="dbo-vg-a8u" firstAttribute="bottom" secondItem="GTi-Cj-0K9" secondAttribute="bottom" constant="8" id="OQD-id-5EG"/>
-                            <constraint firstItem="dbo-vg-a8u" firstAttribute="trailing" secondItem="5cs-OA-f8N" secondAttribute="trailing" constant="100" id="SYC-dE-03s"/>
+                            <constraint firstItem="dbo-vg-a8u" firstAttribute="trailing" secondItem="5cs-OA-f8N" secondAttribute="trailing" constant="90" id="SYC-dE-03s"/>
                             <constraint firstItem="oKm-tG-QOf" firstAttribute="centerX" secondItem="rvk-UE-NfZ" secondAttribute="centerX" id="W70-mE-g7b"/>
                             <constraint firstItem="dbo-vg-a8u" firstAttribute="trailing" secondItem="wTG-Mg-fEc" secondAttribute="trailing" constant="16" id="adF-Zb-La5"/>
                             <constraint firstItem="dbo-vg-a8u" firstAttribute="trailing" secondItem="GTi-Cj-0K9" secondAttribute="trailing" constant="16" id="bLa-IK-fQN"/>
@@ -490,7 +490,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r14-Mi-QM2">
-                                <rect key="frame" x="100" y="328" width="175" height="31"/>
+                                <rect key="frame" x="90" y="328" width="195" height="31"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show detailed solution" cornerStyle="capsule">
@@ -508,10 +508,10 @@
                         <constraints>
                             <constraint firstItem="7ZF-ES-eFA" firstAttribute="top" secondItem="F7c-sC-sjU" secondAttribute="top" constant="60" id="49y-pf-yYa"/>
                             <constraint firstItem="r14-Mi-QM2" firstAttribute="top" secondItem="1zU-c2-1iS" secondAttribute="bottom" constant="27.5" id="60U-dD-Trj"/>
-                            <constraint firstItem="F7c-sC-sjU" firstAttribute="trailing" secondItem="r14-Mi-QM2" secondAttribute="trailing" constant="100" id="69K-bc-ued"/>
+                            <constraint firstItem="F7c-sC-sjU" firstAttribute="trailing" secondItem="r14-Mi-QM2" secondAttribute="trailing" constant="90" id="69K-bc-ued"/>
                             <constraint firstItem="F7c-sC-sjU" firstAttribute="trailing" secondItem="spq-bu-eSR" secondAttribute="trailing" constant="16" id="Erd-6D-xJj"/>
                             <constraint firstItem="7ZF-ES-eFA" firstAttribute="leading" secondItem="F7c-sC-sjU" secondAttribute="leading" constant="16" id="Syx-NV-6Jt"/>
-                            <constraint firstItem="r14-Mi-QM2" firstAttribute="leading" secondItem="F7c-sC-sjU" secondAttribute="leading" constant="100" id="c1L-nN-zkd"/>
+                            <constraint firstItem="r14-Mi-QM2" firstAttribute="leading" secondItem="F7c-sC-sjU" secondAttribute="leading" constant="90" id="c1L-nN-zkd"/>
                             <constraint firstItem="1zU-c2-1iS" firstAttribute="leading" secondItem="F7c-sC-sjU" secondAttribute="leading" constant="16" id="dtj-lT-jwg"/>
                             <constraint firstItem="1zU-c2-1iS" firstAttribute="top" secondItem="7ZF-ES-eFA" secondAttribute="bottom" constant="33" id="ivu-dZ-cqq"/>
                             <constraint firstItem="spq-bu-eSR" firstAttribute="leading" secondItem="F7c-sC-sjU" secondAttribute="leading" constant="16" id="k2x-T8-l7M"/>
@@ -601,7 +601,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dap-Fn-A5I">
-                                <rect key="frame" x="100" y="326" width="175" height="31"/>
+                                <rect key="frame" x="90" y="326" width="195" height="31"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show detailed solution" cornerStyle="capsule">
@@ -658,11 +658,11 @@
                             <constraint firstItem="Cr8-kW-U5r" firstAttribute="top" secondItem="hXb-Ei-1L8" secondAttribute="bottom" constant="31" id="9gj-lu-f49"/>
                             <constraint firstItem="9of-II-oWe" firstAttribute="top" secondItem="Dap-Fn-A5I" secondAttribute="bottom" constant="18" id="Gxb-OY-T8G"/>
                             <constraint firstItem="hXb-Ei-1L8" firstAttribute="top" secondItem="f1F-d1-pfE" secondAttribute="top" constant="60" id="K07-Zv-KWI"/>
-                            <constraint firstItem="Dap-Fn-A5I" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="100" id="Kan-3x-gvS"/>
+                            <constraint firstItem="Dap-Fn-A5I" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="90" id="Kan-3x-gvS"/>
                             <constraint firstItem="9of-II-oWe" firstAttribute="leading" secondItem="f1F-d1-pfE" secondAttribute="leading" constant="16" id="PQg-te-Yaj"/>
                             <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="hXb-Ei-1L8" secondAttribute="trailing" constant="16" id="Qii-w2-Eia"/>
                             <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="9of-II-oWe" secondAttribute="trailing" constant="16" id="Rx8-QV-WAF"/>
-                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="Dap-Fn-A5I" secondAttribute="trailing" constant="100" id="fVU-bK-FER"/>
+                            <constraint firstItem="f1F-d1-pfE" firstAttribute="trailing" secondItem="Dap-Fn-A5I" secondAttribute="trailing" constant="90" id="fVU-bK-FER"/>
                             <constraint firstItem="Dap-Fn-A5I" firstAttribute="top" secondItem="Cr8-kW-U5r" secondAttribute="bottom" constant="27.5" id="qFu-7S-ICq"/>
                         </constraints>
                     </view>
@@ -747,7 +747,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvK-Pm-qPE">
-                                <rect key="frame" x="100" y="334" width="175" height="31"/>
+                                <rect key="frame" x="90" y="334" width="195" height="31"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show detailed solution" cornerStyle="capsule" titleAlignment="center">
@@ -771,11 +771,11 @@
                         <constraints>
                             <constraint firstItem="Hgz-4x-EJS" firstAttribute="top" secondItem="QUe-xX-Wgi" secondAttribute="top" constant="60" id="8Cw-OL-ap1"/>
                             <constraint firstItem="P2v-js-KgI" firstAttribute="leading" secondItem="QUe-xX-Wgi" secondAttribute="leading" constant="16" id="A4z-ca-AO5"/>
-                            <constraint firstItem="QUe-xX-Wgi" firstAttribute="trailing" secondItem="cvK-Pm-qPE" secondAttribute="trailing" constant="100" id="D5k-Ww-DuA"/>
+                            <constraint firstItem="QUe-xX-Wgi" firstAttribute="trailing" secondItem="cvK-Pm-qPE" secondAttribute="trailing" constant="90" id="D5k-Ww-DuA"/>
                             <constraint firstItem="QUe-xX-Wgi" firstAttribute="trailing" secondItem="Hgz-4x-EJS" secondAttribute="trailing" constant="80" id="ECv-jG-qbQ"/>
                             <constraint firstItem="ldi-5W-SPu" firstAttribute="centerX" secondItem="yE8-eQ-Tv8" secondAttribute="centerX" id="FbT-J8-hwa"/>
                             <constraint firstItem="P2v-js-KgI" firstAttribute="top" secondItem="cvK-Pm-qPE" secondAttribute="bottom" constant="28" id="GXP-ew-PpT"/>
-                            <constraint firstItem="cvK-Pm-qPE" firstAttribute="leading" secondItem="QUe-xX-Wgi" secondAttribute="leading" constant="100" id="KB3-Ix-8iW"/>
+                            <constraint firstItem="cvK-Pm-qPE" firstAttribute="leading" secondItem="QUe-xX-Wgi" secondAttribute="leading" constant="90" id="KB3-Ix-8iW"/>
                             <constraint firstItem="QUe-xX-Wgi" firstAttribute="trailing" secondItem="P2v-js-KgI" secondAttribute="trailing" constant="16" id="VY7-hB-OG5"/>
                             <constraint firstItem="cvK-Pm-qPE" firstAttribute="top" secondItem="ldi-5W-SPu" secondAttribute="bottom" constant="32.5" id="fI5-fB-qjB"/>
                             <constraint firstItem="ldi-5W-SPu" firstAttribute="top" secondItem="Hgz-4x-EJS" secondAttribute="bottom" constant="24" id="gF3-HH-QEu"/>
