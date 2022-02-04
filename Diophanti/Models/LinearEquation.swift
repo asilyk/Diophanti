@@ -15,8 +15,9 @@ struct LinearEquation {
         let root: String
 
         if coefficient == 0 {
-            solution = "Error! This equation is not linear."
-            return (solution, solution)
+            root = "Error! This equation is not linear."
+            solution = root + " The coefficient cannot be zero."
+            return (root, solution)
         }
 
         root = "x ≈ \(Double(-firstFreeMember + secondFreeMember) / Double(coefficient))"
