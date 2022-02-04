@@ -96,7 +96,15 @@ extension QuadraticEquationViewController: UITextFieldDelegate {
             return
         }
         
-        if number == "" { return }
+        if number == "" {
+            switch textField {
+            case firstNumberTextField: firstCoefficient = 0
+            case secondNumberTextField: secondCoefficient = 0
+            default: freeMember = 0
+            }
+
+            return
+        }
         
         showDetailedSolutionButton.isHidden = true
         resultLabel.isHidden = true

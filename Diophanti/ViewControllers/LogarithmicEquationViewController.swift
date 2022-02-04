@@ -92,7 +92,14 @@ extension LogarithmicEquationViewController: UITextFieldDelegate {
             return
         }
         
-        if number == "" { return }
+        if number == "" {
+            switch textField {
+            case firstNumberTextField: exponent = 0
+            default: logValue = 0
+            }
+
+            return
+        }
 
         showDetailedSolutionButton.isHidden = true
         resultLabel.isHidden = true

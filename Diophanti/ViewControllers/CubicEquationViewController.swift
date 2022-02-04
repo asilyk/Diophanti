@@ -98,7 +98,15 @@ extension CubicEquationViewController: UITextFieldDelegate {
             return
         }
 
-        if number == "" { return }
+        if number == "" {
+            switch textField {
+            case firstNumberTextField: a = 0
+            case secondNumberTextField: b = 0
+            default: c = 0
+            }
+
+            return
+        }
 
         showDetailedSolutionButton.isHidden = true
         resultLabel.isHidden = true
