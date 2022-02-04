@@ -80,9 +80,9 @@
 		11E8928327A91C65001DF3B6 /* Diophanti */ = {
 			isa = PBXGroup;
 			children = (
+				11E892A027A91DDB001DF3B6 /* Models */,
 				11E8929D27A91D66001DF3B6 /* ViewControllers */,
 				11E8929E27A91D8B001DF3B6 /* Storyboards */,
-				11E892A027A91DDB001DF3B6 /* Models */,
 				11E8929F27A91DB2001DF3B6 /* Resources */,
 				11E8929A27A91D52001DF3B6 /* App */,
 			);

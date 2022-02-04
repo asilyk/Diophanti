@@ -158,7 +158,7 @@
                                                 <rect key="frame" x="0.0" y="112" width="160.5" height="31"/>
                                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Qadratic equation" cornerStyle="capsule">
+                                                <buttonConfiguration key="configuration" style="plain" title="Quadratic equation" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" name="AccentColor"/>
                                                     </backgroundConfiguration>
