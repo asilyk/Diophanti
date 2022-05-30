@@ -1,4 +1,4 @@
-# Diophanti app app
+# Diophanti app
 
 The first team training project for creating applications using the UIKit framework and MVC.
 The team consisted of two participants: [fabet](https://github.com/fabet) and [wwexil](https://github.com/wwexil).
